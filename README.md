@@ -1,9 +1,5 @@
 <img width="1251" alt="present" src="https://user-images.githubusercontent.com/7671983/74078964-b4ed2400-49e5-11ea-9f08-81196fabc45d.png">
 
-Welcome to my conference talk: 'Micro-Interactions With React Spring'!
-
-Here is the code associated with my talk.
-
 You can view the slides [here](https://www.canva.com/design/DADzMOvEZO4/RNJiMRxpnERNrvcsKIDm9g/view?utm_content=DADzMOvEZO4&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton).
 
 ## React Spring

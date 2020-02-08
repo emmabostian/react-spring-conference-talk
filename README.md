@@ -1,68 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Micro-Interactions With React Spring
 
-## Available Scripts
+Welcome to my conference talk: 'Micro-Interactions With React Spring'!
 
-In the project directory, you can run:
+Here is the code associated with my talk.
 
-### `yarn start`
+You can view the slides [here](https://www.canva.com/design/DADzMOvEZO4/RNJiMRxpnERNrvcsKIDm9g/view?utm_content=DADzMOvEZO4&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## React Spring
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+These two examples were built using [react-spring](https://www.react-spring.io/).
 
-### `yarn test`
+The hooks used include:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `useSpring`
+- `useTransition`
+- `useChain`
 
-### `yarn build`
+## Examples
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+There are two examples in this repository:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Progress Bar
+- Menu
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Progress Bar
 
-### `yarn eject`
+<img width="574" alt="Progress bar" src="https://user-images.githubusercontent.com/7671983/74078923-4ad47f00-49e5-11ea-948a-7a2d1a708e81.png">
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**The progress bar example is _not_ accessible. If you plan to use this in your applications, additional measures must be taken to ensure W3C compliance.**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This example uses one react-spring hook:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- `useSpring`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[Here](https://codesandbox.io/embed/progress-bar-ngzcv?fontsize=14&hidenavigation=1&theme=dark) is the Code Sandbox link for the progress bar.
 
-## Learn More
+### Menu
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img width="1161" alt="menu" src="https://user-images.githubusercontent.com/7671983/74078939-6fc8f200-49e5-11ea-976d-3fa399578723.png">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The second example is a bit more complex and uses three react-spring hooks:
 
-### Code Splitting
+- `useSpring`
+- `useTransition`
+- `useChain`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[Here](https://codesandbox.io/embed/react-spring-tutorial-z9udh?fontsize=14&hidenavigation=1&theme=dark) is the Code Sandbox link for the menu.

@@ -1,0 +1,32 @@
+body {
+  overflow: hidden;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.menu-button--full {
+  top: 40px;
+  left: 20px;
+}
+
+.menu-button {
+  z-index: 40;
+  border: none;
+  position: fixed;
+  top: 40px;
+  right: 20px;
+  padding: 12px;
+  font-size: 1em;
+  background: none;
+  background: #fff;
+  color: #692969;
+  transition: background 0.1s linear;
+  cursor: pointer;
+}
+
+.menu-button:hover {
+  background: #e8daff;
+}

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 import ProgressBar from "./ProgressBar";
 import Menu from "./Menu";
@@ -8,8 +8,7 @@ const App = () => {
   return (
     <div>
       <ProgressBar />
-      {/* <button className="menu-button">Menu</button>
-      <Menu /> */}
+      {/* <Menu /> */}
     </div>
   );
 };

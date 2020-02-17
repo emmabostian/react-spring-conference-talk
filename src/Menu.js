@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useState, useRef } from "react";
 import { animated, useSpring, useTransition, useChain } from "react-spring";
 
 import "./menu.css";
@@ -19,4 +19,13 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+const MenuWrapper = () => {
+  return (
+    <>
+      <button className="menu-button">Menu</button>
+      <Menu />
+    </>
+  );
+};
+
+export default MenuWrapper;
